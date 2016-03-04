@@ -1,0 +1,33 @@
+<%-
+   include('../bower_components/r5m-cms/tpl/layout.ejs', {
+      title: 'Название сайта',
+      titleHtml: 'Название, но с тегами',
+      tagline: 'Подзаголовок',
+      motto: 'слоган',
+      subtitle: locals.subtitle,
+      parts: [locals.parts, '_metrika'],
+      isMobile: true,
+      fonts: {
+        google: [
+          'https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic'
+        ]
+      },
+      feedbackService: 'emailjs',
+      emailjsTpl: 'callme-cko',
+      feedbackEmail: 'info@xxx.com',
+      yandexId: 35678315,
+      info : {
+        city: 'г. Нью Васюки',
+        email: 'info@xxx.com',
+        year: '2016',
+        phone: '+7 (987) 654 3210',
+        phoneLink: '+79876543210',
+        copyright: 'XXX ltd.'
+      },
+      utmContent: {
+        utm1: {
+
+        }
+      }
+   });
+%>

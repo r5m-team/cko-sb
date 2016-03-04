@@ -1,0 +1,286 @@
+body > div {
+  max-width: 1600px;
+  margin: auto;
+  background-image: url('../../img/background-main.png');
+  font-family: Arial, sans;
+  background-repeat: no-repeat;
+  background-size: auto 350px;
+}
+
+body > div.image-zoomer {
+  max-width: none;
+}
+
+
+img {
+  border: none;
+}
+
+.clearBoth {
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+
+/*
+ * HEADER
+ */
+
+header {
+  padding: 20px 0;
+}
+
+.logo,
+.offer,
+.actions {
+  float: left;
+}
+
+.logo {
+  margin-left: -100%;
+}
+
+.actions {
+  margin-left: -250px;
+}
+
+header > div {
+  text-align: center;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header .logo,
+header .actions {
+  width: 250px;
+  padding-left: 10px;
+}
+
+header .offer {
+  width: 100%;
+}
+
+header .logo p {
+  margin-top: 0px;
+}
+
+.offer-content {
+  margin: 0 250px;
+}
+
+
+/*
+ * Content panes
+ */
+
+div.content div {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.content-wrapper {
+  float: left;
+  width: 100%;
+}
+
+#common-content {
+  text-align: justify;
+  padding: 0;
+  width: 100%;
+  border-right: 2px solid #205a82;
+  position: relative;
+  right: -5px;
+}
+
+#right-content {
+  width: 351px;
+  margin-left: -351px;
+}
+
+.content-itself {
+  margin-right: 350px;
+}
+
+div#right-content aside h3,
+#common-content-manage {
+  width: 100%;
+}
+
+#common-content-manage > ul {
+  padding: 0;
+  width: 100%;
+}
+
+
+/*
+ * Show/hide section with only css
+ */
+
+/*
+ * Phone layout fixes
+ */
+
+@media all and (max-width: 800px) {
+  .float-left {
+    clear: both;
+    float: none;
+  }
+  .content-itself {
+    margin-right: 0;
+  }
+  .offer-content {
+    margin: 350px 0 0 0;
+  }
+  .actions {
+    margin: 0;
+  }
+  #right-content {
+    margin-left: 0;
+  }
+  header div.logo,
+  header div.actions,
+  header div.offer,
+  #common-content-manage,
+  #common-content,
+  #right-content {
+    width: 100%;
+  }
+  #common-content {
+    text-align: justify;
+    padding: 0 10px;
+    position: static;
+    border: none;
+  }
+  body #right-content {
+    text-align: justify;
+    margin-top: 30px;
+    padding: 0;
+    border: none;
+  }
+  #right-content aside {
+    border: none;
+  }
+  #right-content aside ul {
+    text-align: justify;
+    padding-right: 10px;
+  }
+}
+
+
+
+/*
+ * Certificates & Reviews
+ */
+
+.certs ul,
+.reviews ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.certs ul {
+  padding: 0 10px;
+}
+
+.certs li {
+  margin: 0 10px;
+  padding: 20px 0 0 0;
+  width: 140px;
+  float: left;
+}
+
+.reviews li.divide {
+  border-bottom: solid 1px #ccc;
+  margin: 0 20px;
+  padding: 0;
+}
+
+.reviews li {
+  margin: 0 20px;
+  padding: 20px 0;
+  text-align: justify;
+  position: relative;
+}
+
+.certs li img {
+  width: 100%;
+  height: auto;
+  border: solid 1px #ccc;
+}
+
+.reviews li img {
+  float: right;
+  margin: 20px 0 0 20px;
+  border: solid 1px #ccc
+}
+
+.reviews li img.divider {
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  margin: 0;
+  margin-left: -10px;
+  bottom: -10px;
+  padding: 0 10px;
+  background: white;
+  border: none;
+}
+
+.review-content {
+  clear: left;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.bottom-button {
+  text-align: center;
+}
+
+#common-content .how-we-work-wrapper p.line {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  text-indent: 0;
+}
+
+.how-we-work-wrapper {
+  width: 95%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.how-we-work-steps {
+  width: auto;
+  padding: 0px !important;
+  margin: 15px 10px 0px 10px !important;
+}
+
+.how-we-work-steps li {
+  margin: 0 auto;
+}
+
+.how-we-work-step-content {
+  width: 16%;
+}
+
+.how-we-work-next {
+  width: 4%;
+}
+
+
+.r5m-dimmer .r5mFeedback__submit-button {
+  background: #36739c;
+  border: 2px solid #205A82
+}
+
+.r5m-dimmer .r5mFeedback__submit-button:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background: #36739c;
+  border: 2px solid #205A82;
+  color: white;
+}
