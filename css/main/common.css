@@ -1,10 +1,8 @@
 body > div {
   max-width: 1600px;
   margin: auto;
-  background-image: url('../../img/background-main.png');
   font-family: Arial, sans;
-  background-repeat: no-repeat;
-  background-size: auto 350px;
+
 }
 
 body > div.image-zoomer {
@@ -31,6 +29,9 @@ img {
 
 header {
   padding: 20px 0;
+  background-image: url('../../img/background-main.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo,
@@ -249,7 +250,7 @@ div#right-content aside h3,
 }
 
 .how-we-work-wrapper {
-  width: 95%;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
 }
