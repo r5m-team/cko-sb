@@ -789,39 +789,6 @@ div#right-content aside h3,
   border: 2px solid #205A82;
   color: white;
 }
-textarea, input[type="text"], input[type="email"] {
-	min-width: 270px;
-	width: 270px;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	border: solid 1px #ccc;
-	border-radius: 0;
-	padding: 10px;
-	font-size: 17px;
-	font-weight: bold;
-	border-radius: 2px;
-}
- 
- 
- input:required:invalid, input:focus:invalid {
-  
-  -moz-box-shadow: none;
-  
-}
-input:required:invalid, input:focus:invalid {
-    background-image: url(img/icon_warn.png);
-    background-position: 95% center;
-    background-repeat: no-repeat;
-    border-color: #ccc;
-    background-size: auto 1rem;
-}
-input:required:valid {
-    background-image: url(img/icon_ok.png);
-    background-position: 95% center;
-    background-repeat: no-repeat;
-    border-color: #86b596;
-    background-size: auto 1rem;
-}
 html.modal-open, html.modal-open body{
 	overflow: hidden;
 }

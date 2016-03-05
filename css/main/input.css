@@ -14,18 +14,18 @@ textarea, input[type="text"], input[type="email"] {
 
 /*
  * FORM VALIDATION
- */ 
- 
+ */
+
  input:required:invalid, input:focus:invalid {
   /* insert your own styles for invalid form input */
   -moz-box-shadow: none;
-  
+
 }
 
 input:required:invalid, input:focus:invalid {
-    background-image: url(../img/icon_warn.png);
+    /*background-image: url(../img/icon_warn.png);
     background-position: 95% center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     border-color: #ccc;
     background-size: auto 1rem;
 }
