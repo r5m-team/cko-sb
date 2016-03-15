@@ -274,6 +274,14 @@ body.with-dimmer {
 .r5m-dimmer .r5mFeedback__form__offer {
   color: #333;
 }
+.r5mFeedback__privacy-statement {
+  text-align: left;
+  font-size: 0.8em;
+  margin: 5px 0;
+}
+.r5m-dimmer .r5mFeedback__privacy-statement a {
+  color: #666;
+}
 .r5m-dimmer {
   background-color: rgba(10%, 10%, 10%, 0.75);
   z-index: 10;
@@ -563,6 +571,14 @@ body.with-dimmer {
 }
 .nomobile-only {
   display: none!important;
+}
+.r5m-dimmer .r5mFeedback {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.r5m-dimmer .r5mFeedback__submit-button {
+  width: 100%;
+  box-sizing: border-box;
 }
 }
 /*!
