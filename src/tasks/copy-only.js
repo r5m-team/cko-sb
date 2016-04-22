@@ -6,7 +6,7 @@ module.exports = function () {
 	return function () {
 		var imgs = gulp.src(['img/**/*']).pipe(gulp.dest('./dist/img'));
 		var fonts = gulp.src(['fonts/**/*']).pipe(gulp.dest('./dist/fonts'));
-		var ghFiles = gulp.src(['CNAME']).pipe(gulp.dest('./dist/'));
+		var ghFiles = gulp.src(['CNAME', 'favicon.ico']).pipe(gulp.dest('./dist/'));
 
 		return merge(imgs, fonts, ghFiles);
 	};
