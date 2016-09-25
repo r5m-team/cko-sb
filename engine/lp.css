@@ -655,11 +655,11 @@ div.content div {
   right: -5px;
 }
 #right-content {
-  width: 351px;
-  margin-left: -351px;
+  width: 400px;
+  margin-left: -400px;
 }
 .content-itself {
-  margin-right: 350px;
+  margin-right: 400px;
 }
 div#right-content aside h3,
 #common-content-manage {
@@ -726,7 +726,7 @@ div#right-content aside h3,
 .certs li {
   margin: 0 10px;
   padding: 20px 0 0 0;
-  width: 140px;
+  width: 165px;
   float: left;
 }
 .reviews li.divide {
@@ -765,6 +765,9 @@ div#right-content aside h3,
   clear: left;
   padding-top: 10px;
   margin: 0;
+  font-size: 0.9em;
+  font-style: italic;
+  text-align: left;
 }
 .bottom-button {
   text-align: center;
@@ -983,14 +986,20 @@ nav.navigation li .pointer {
 .reviews-content-header {
   text-decoration: none;
 }
+.reviews-content-header {
+  color: #ccc;
+}
+#common-content-manage li a:hover,
+.reviews-content-header:hover {
+  color: white;
+}
 #common-content-manage li {
   position: relative;
   font-weight: bold;
   color: #ccc;
   width: 33%
 }
-#common-content-manage li.active,
-.reviews-content-header {
+#common-content-manage li.active {
   color: white;
 }
 .actions .call-me {
