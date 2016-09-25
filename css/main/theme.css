@@ -244,6 +244,15 @@ nav.navigation li .pointer {
   text-decoration: none;
 }
 
+.reviews-content-header {
+  color: #ccc;
+}
+
+#common-content-manage li a:hover,
+.reviews-content-header:hover {
+  color: white;
+}
+
 #common-content-manage li {
   position: relative;
   font-weight: bold;
@@ -251,8 +260,7 @@ nav.navigation li .pointer {
   width: 33%
 }
 
-#common-content-manage li.active,
-.reviews-content-header {
+#common-content-manage li.active {
   color: white;
 }
 
