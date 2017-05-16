@@ -877,6 +877,7 @@ a:active {
 }
 .actions .phone-p {
   color: #124465;
+  margin: 40px auto 20px;
 }
 .actions .phone {
   font-size: 1.25rem;
