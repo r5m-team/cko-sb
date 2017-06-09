@@ -44,3 +44,43 @@
   ga('create', 'UA-77067828-1', 'auto');
   ga('send', 'pageview');
 </script>
+
+<script>
+	function amoCrmIntegration() {
+        [].forEach.call(document.querySelectorAll('.r5mFeedback__form'), function(formElem) {
+            var amoCrmUrl = "http://siteprosto.ru/api/amo.crm/vdo-nk.ru/amocrm_api.php?utm_s=" + getUrlParam('utm_source') + "&utm_m=" + getUrlParam('utm_medium') + "&utm_c=" + getUrlParam('utm_campaign');
+          
+            formElem.addEventListener('submit', function(evt) {
+                var data = {};
+                [].forEach.call(formElem, function(field) {
+                    var name = field.getAttribute('name');
+                    if (formElem[name]) {
+                        data[name] = field.value;
+                    }
+                });
+                console.log(data);
+                // return;
+                require(['vendor/qwest/qwest.min'], function(xhr) {
+                    xhr.post(amoCrmUrl, data, {
+                        cache: true,
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                    });
+                });
+            });
+
+        });
+    }
+
+    function getUrlParam(key) {
+        var results = new RegExp('[\?&]' + key + '=([^&#]*)').exec(window.location.href);
+        if (results == null) {
+            return null;
+        } else {
+            return results[1] || 0;
+        }
+    }
+    
+    amoCrmIntegration();
+</script>
