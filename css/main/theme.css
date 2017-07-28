@@ -903,14 +903,7 @@ footer .webmaster-link:hover {
     .certs li {
         width: 130px;
     }
-    .webmaster-block {
-        position: static;
-        margin-top: 20px;
-       
-    }
-    .copyleft {
-        padding-bottom: 10px;
-    }
+
 }
 @media all and (min-width: 1600px) {
     body {
@@ -974,5 +967,15 @@ footer .webmaster-link:hover {
     }
     .offer .offer-slogan i {
         white-space: normal;
+    }
+
+    .webmaster-block {
+        position: static;
+        float: left;
+        clear: both;
+
+    }
+    .copyleft {
+        padding-bottom: 20px;
     }
 }
