@@ -1055,8 +1055,8 @@ nav.navigation li .pointer {
     text-align: right;
 }
 .copyleft {
-    font-size: 0.8rem;
-    line-height: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
     margin: 0;
 }
 .contact-footer-info {
@@ -1497,7 +1497,7 @@ footer .webmaster-link:hover {
     position: absolute;
     right: 20px;
     bottom: 20px;
-    font-size: 0.75em;
+    font-size: 0.75rem;
 }
 @media all and (max-width: 680px) {
     .contact-footer-info > div.title {
