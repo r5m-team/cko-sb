@@ -1055,7 +1055,6 @@ nav.navigation li .pointer {
     text-align: right;
 }
 .copyleft {
-    padding: 20px;
     font-size: 0.8rem;
     line-height: 1rem;
     margin: 0;
@@ -1079,93 +1078,6 @@ nav.navigation li .pointer {
 }
 .dialog-window-line {
     display: none;
-}
-@media all and (max-width: 680px) {
-    .contact-footer-info > div.title {
-        clear: left;
-        padding-left: 0;
-    }
-    .contact-footer-info > div.first {
-        margin-top: 0;
-    }
-    .contact-footer-info > div {
-        margin-top: 10px;
-    }
-    .offer .offer-slogan i {
-        margin-left: -2.75em;
-    }
-    .offer-slogan br {
-        display: inline;
-    }
-    .only-pc {
-        display: none;
-    }
-    .certs li {
-        width: 130px;
-    }
-}
-@media all and (min-width: 1600px) {
-    body {
-        background-size: 1600px auto;
-        background-position: center top;
-    }
-}
-@media all and (max-width: 1280px) {
-    body {
-        background-size: auto 400px;
-    }
-    .actions .phone {
-        font-size: 1.5rem;
-    }
-}
-@media all and (max-width: 1024px) {
-    .actions .phone {
-        font-size: 1.5rem;
-    }
-    .offer .offer-main,
-    .offer .offer-slogan {
-        font-weight: bold;
-        font-size: 1.5em;
-    }
-}
-@media all and (max-width: 800px) {
-    body {
-        background-color: white;
-        background-image: none;
-    }
-    .actions .phone {
-        font-size: 1rem;
-    }
-    #common-content-manage li {
-        font-size: 1rem;
-    }
-    header {
-        background: rgb(113, 174, 223);
-        
-        background: -moz-linear-gradient(45deg, rgba(113, 174, 223, 1) 0%, rgba(255, 255, 255, 1) 75%);
-        
-        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(113, 174, 223, 1)), color-stop(75%, rgba(255, 255, 255, 1)));
-        
-        background: -webkit-linear-gradient(45deg, rgba(113, 174, 223, 1) 0%, rgba(255, 255, 255, 1) 75%);
-        
-        background: -o-linear-gradient(45deg, rgba(113, 174, 223, 1) 0%, rgba(255, 255, 255, 1) 75%);
-        
-        background: -ms-linear-gradient(45deg, rgba(113, 174, 223, 1) 0%, rgba(255, 255, 255, 1) 75%);
-        
-        background: linear-gradient(45deg, rgba(113, 174, 223, 1) 0%, rgba(255, 255, 255, 1) 75%);
-        
-        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr=  '#71aedf', endColorstr='#ffffff', GradientType=1);
-        
-    }
-    header > div {
-        padding: 0 20px;
-    }
-    .logo img {
-        height: 250px;
-    }
-    .offer .offer-slogan i {
-        white-space: normal;
-    }
 }
 #common-content section p {
     text-align: justify;
@@ -1562,10 +1474,125 @@ aside img {
 .content-wrapper {
     border-right: solid 2px #205a82;
 }
-.copyleft__address {
+.copyleft {
     float: left;
+}
+.copyleft__address {
     margin-bottom: 7px;
     margin-right: 25px;
+}
+footer {
+    position: relative;
+    padding: 20px;
+}
+footer .webmaster-link {
+    font: inherit;
+    text-decoration: none;
+    border: none;
+}
+footer .webmaster-link:hover {
+    color: white;
+}
+.webmaster-block {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 0.75em;
+}
+@media all and (max-width: 680px) {
+    .contact-footer-info > div.title {
+        clear: left;
+        padding-left: 0;
+    }
+    .contact-footer-info > div.first {
+        margin-top: 0;
+    }
+    .contact-footer-info > div {
+        margin-top: 10px;
+    }
+    .offer .offer-slogan i {
+        margin-left: -2.75em;
+    }
+    .offer-slogan br {
+        display: inline;
+    }
+    .only-pc {
+        display: none;
+    }
+    .certs li {
+        width: 130px;
+    }
+    .webmaster-block {
+        position: static;
+        margin-top: 20px;
+       
+    }
+    .copyleft {
+        padding-bottom: 10px;
+    }
+}
+@media all and (min-width: 1600px) {
+    body {
+        background-size: 1600px auto;
+        background-position: center top;
+    }
+}
+@media all and (max-width: 1280px) {
+    body {
+        background-size: auto 400px;
+    }
+    .actions .phone {
+        font-size: 1.5rem;
+    }
+}
+@media all and (max-width: 1024px) {
+    .actions .phone {
+        font-size: 1.5rem;
+    }
+    .offer .offer-main,
+    .offer .offer-slogan {
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+}
+@media all and (max-width: 800px) {
+    body {
+        background-color: white;
+        background-image: none;
+    }
+    .actions .phone {
+        font-size: 1rem;
+    }
+    #common-content-manage li {
+        font-size: 1rem;
+    }
+    header {
+        background: rgb(113, 174, 223);
+        
+        background: -moz-linear-gradient(45deg, rgba(113, 174, 223, 1) 0%, rgba(255, 255, 255, 1) 75%);
+        
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(113, 174, 223, 1)), color-stop(75%, rgba(255, 255, 255, 1)));
+        
+        background: -webkit-linear-gradient(45deg, rgba(113, 174, 223, 1) 0%, rgba(255, 255, 255, 1) 75%);
+        
+        background: -o-linear-gradient(45deg, rgba(113, 174, 223, 1) 0%, rgba(255, 255, 255, 1) 75%);
+        
+        background: -ms-linear-gradient(45deg, rgba(113, 174, 223, 1) 0%, rgba(255, 255, 255, 1) 75%);
+        
+        background: linear-gradient(45deg, rgba(113, 174, 223, 1) 0%, rgba(255, 255, 255, 1) 75%);
+        
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr=  '#71aedf', endColorstr='#ffffff', GradientType=1);
+        
+    }
+    header > div {
+        padding: 0 20px;
+    }
+    .logo img {
+        height: 250px;
+    }
+    .offer .offer-slogan i {
+        white-space: normal;
+    }
 }
 .cert-wrapper {
     box-sizing: border-box;
