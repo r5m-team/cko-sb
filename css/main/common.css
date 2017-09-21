@@ -1,120 +1,116 @@
 body > div {
-  max-width: 1600px;
-  margin: auto;
-  font-family: Arial, sans;
+    max-width: 1600px;
+    margin: auto;
+    font-family: Arial, sans;
 
 }
 
 body > div.image-zoomer {
-  max-width: none;
+    max-width: none;
 }
 
-
 img {
-  border: none;
+    border: none;
 }
 
 .clearBoth {
-  clear: both;
+    clear: both;
 }
 
 .float-left {
-  float: left;
+    float: left;
 }
-
 
 /*
  * HEADER
  */
 
 header {
-  padding: 20px 0;
-  background-image: url('../../img/background-main.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+    padding: 20px 0;
+    background-image: url('../../img/background-main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.actions,
 .logo,
-.offer,
-.actions {
-  float: left;
+.offer {
+    float: left;
 }
 
 .logo {
-  margin-left: -100%;
+    margin-left: -100%;
 }
 
 .actions {
-  margin-left: -250px;
+    margin-left: -250px;
 }
 
 header > div {
-  text-align: center;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-header .logo,
-header .actions {
-  width: 250px;
-  padding-left: 10px;
+header .actions,
+header .logo {
+    width: 250px;
+    padding-left: 10px;
 }
 
 header .offer {
-  width: 100%;
+    width: 100%;
 }
 
 header .logo p {
-  margin-top: 0px;
+    margin-top: 0;
 }
 
 .offer-content {
-  margin: 0 250px;
+    margin: 0 250px;
 }
-
 
 /*
  * Content panes
  */
 
 div.content div {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .content-wrapper {
-  float: left;
-  width: 100%;
+    float: left;
+    width: 100%;
 }
 
 #common-content {
-  text-align: justify;
-  padding: 0;
-  width: 100%;
-  border-right: 2px solid #205a82;
-  position: relative;
-  right: -5px;
+    text-align: justify;
+    padding: 0;
+    width: 100%;
+    border-right: 2px solid #205a82;
+    position: relative;
+    right: -5px;
 }
 
 #right-content {
-  width: 400px;
-  margin-left: -400px;
+    width: 400px;
+    margin-left: -400px;
 }
 
 .content-itself {
-  margin-right: 400px;
+    margin-right: 400px;
 }
 
-div#right-content aside h3,
-#common-content-manage {
-  width: 100%;
+#common-content-manage,
+div#right-content aside h3 {
+    width: 100%;
 }
 
 #common-content-manage > ul {
-  padding: 0;
-  width: 100%;
+    padding: 0;
+    width: 100%;
 }
-
 
 /*
  * Show/hide section with only css
@@ -123,54 +119,51 @@ div#right-content aside h3,
 /*
  * Phone layout fixes
  */
-
 @media all and (max-width: 800px) {
-  .float-left {
-    clear: both;
-    float: none;
-  }
-  .content-itself {
-    margin-right: 0;
-  }
-  .offer-content {
-    margin: 350px 0 0 0;
-  }
-  .actions {
-    margin: 0;
-  }
-  #right-content {
-    margin-left: 0;
-  }
-  header div.logo,
-  header div.actions,
-  header div.offer,
-  #common-content-manage,
-  #common-content,
-  #right-content {
-    width: 100%;
-  }
-  #common-content {
-    text-align: justify;
-    padding: 0 10px;
-    position: static;
-    border: none;
-  }
-  body #right-content {
-    text-align: justify;
-    margin-top: 30px;
-    padding: 0;
-    border: none;
-  }
-  #right-content aside {
-    border: none;
-  }
-  #right-content aside ul {
-    text-align: justify;
-    padding-right: 10px;
-  }
+    .float-left {
+        clear: both;
+        float: none;
+    }
+    .content-itself {
+        margin-right: 0;
+    }
+    .offer-content {
+        margin: 350px 0 0;
+    }
+    .actions {
+        margin: 0;
+    }
+    #right-content {
+        margin-left: 0;
+    }
+    #common-content,
+    #common-content-manage,
+    #right-content,
+    header div.actions,
+    header div.logo,
+    header div.offer {
+        width: 100%;
+    }
+    #common-content {
+        text-align: justify;
+        padding: 0 10px;
+        position: static;
+        border: none;
+    }
+    body #right-content {
+        text-align: justify;
+        margin-top: 30px;
+        padding: 0;
+        border: none;
+    }
+    #right-content aside {
+        border: none;
+    }
+    #right-content aside ul {
+        text-align: justify;
+        padding-right: 10px;
+    }
 }
-
-
 
 /*
  * Certificates & Reviews
@@ -178,113 +171,115 @@ div#right-content aside h3,
 
 .certs ul,
 .reviews ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .certs ul {
-  padding: 0 10px;
+    padding: 0 10px;
 }
 
 .certs li {
-  margin: 0 10px;
-  padding: 20px 0 0 0;
-  width: 165px;
-  float: left;
+    margin: 0 10px;
+    padding: 20px 0 0;
+    width: 165px;
+    float: left;
 }
 
 .reviews li.divide {
-  border-bottom: solid 1px #ccc;
-  margin: 0 20px;
-  padding: 0;
+    border-bottom: solid 1px #ccc;
+    margin: 0 20px;
+    padding: 0;
 }
 
 .reviews li {
-  margin: 0 20px;
-  padding: 20px 0;
-  text-align: justify;
-  position: relative;
+    margin: 0 20px;
+    padding: 20px 0;
+    text-align: justify;
+    position: relative;
 }
 
 .certs li img {
-  width: 100%;
-  height: auto;
-  border: solid 1px #ccc;
+    width: 100%;
+    height: auto;
+    border: solid 1px #ccc;
 }
 
 .reviews li img {
-  float: right;
-  margin: 20px 0 0 20px;
-  border: solid 1px #ccc
+    float: right;
+    margin: 20px 0 0 20px;
+    border: solid 1px #ccc;
 }
 
 .reviews li img.divider {
-  height: 20px;
-  position: absolute;
-  left: 50%;
-  margin: 0;
-  margin-left: -10px;
-  bottom: -10px;
-  padding: 0 10px;
-  background: white;
-  border: none;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -10px;
+    bottom: -10px;
+    padding: 0 10px;
+    background: white;
+    border: none;
 }
 
 .review-content {
-  clear: left;
-  padding-top: 10px;
-  margin: 0;
-  font-size: 0.9em;
-  font-style: italic;
-  text-align: left;
+    clear: left;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 0.9em;
+    font-style: italic;
+    text-align: left;
 }
 
 .bottom-button {
-  text-align: center;
+    text-align: center;
 }
 
 #common-content .how-we-work-wrapper p.line {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 10px;
-  text-indent: 0;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    text-indent: 0;
 }
 
 .how-we-work-wrapper {
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .how-we-work-steps {
-  width: auto;
-  padding: 0px !important;
-  margin: 15px 10px 0px 10px !important;
+    width: auto;
+    padding: 0 !important;
+    margin: 15px 10px 0 !important;
 }
 
 .how-we-work-steps li {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .how-we-work-step-content {
-  width: 16%;
+    width: 16%;
 }
 
 .how-we-work-next {
-  width: 4%;
+    width: 4%;
 }
-
 
 .r5m-dimmer .r5mFeedback__submit-button {
-  background: #36739c;
-  border: 2px solid #205A82
+    background: #36739c;
+    border: 2px solid #205A82;
 }
-
 .r5m-dimmer .r5mFeedback__submit-button:hover {
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  background: #36739c;
-  border: 2px solid #205A82;
-  color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background: #36739c;
+    border: 2px solid #205A82;
+    color: white;
+}
+.r5m-dimmer .r5mFeedback__submit-button:disabled {
+    background: #ccc;
+    color: #666;
+    border-color: #ccc;
+    box-shadow: none;
 }
